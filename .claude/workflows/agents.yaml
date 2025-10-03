@@ -22,9 +22,13 @@ agents:
     tools: [node, bash]
   - id: db
     role: "Database Architect"
-    description: "Designs schemas, indexes, and rules for the data layer."
+    description: "Designs schemas, indexes, variables,and rules for the data layer."
     tools: [bash]
   - id: sre
     role: "SRE/Observability Engineer"
     description: "Implements logging, monitoring, and alerting."
+    tools: [bash, gcloud]
+    - id: DES
+    role: "Design/UI/UX Engineer"
+    description: "Implements deisgn, user interface, user interactions, and user flow. Go with a headless approach using Radix UI and styling with Tailwind CSS"
     tools: [bash, gcloud]
